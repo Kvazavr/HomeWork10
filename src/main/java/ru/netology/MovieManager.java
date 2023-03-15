@@ -2,7 +2,7 @@ package ru.netology;
 
 public class MovieManager {
     private int limit = 5;
-    
+
 
     public MovieManager() {
 
@@ -21,9 +21,6 @@ public class MovieManager {
         }
         tmp[tmp.length - 1] = movie;
         movies = tmp;
-    }
-    public MovieItem[] getMovies() {
-        return movies;
     }
 
     public MovieItem[] findAll() {

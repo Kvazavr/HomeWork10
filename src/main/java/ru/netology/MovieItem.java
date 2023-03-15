@@ -7,15 +7,5 @@ public class MovieItem {
         this.title = title;
 
     }
-
-    public String geTitle() {
-        return title;
-    }
-
-    public void setTitle(String newTitle) {
-        this.title = title;
-    }
-
 }
-
 
