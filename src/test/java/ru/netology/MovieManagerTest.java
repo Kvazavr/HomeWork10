@@ -62,6 +62,7 @@ public class MovieManagerTest {
         Assertions.assertArrayEquals(expected, actual);
 
     }
+
     @Test
     public void shouldShowLastMoviesWhenLimitMoreLength() {
         MovieManager movieManager1 = new MovieManager(5);
